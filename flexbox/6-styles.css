@@ -216,14 +216,11 @@
     font-weight: var(--nav-item-font-weight);
     font-size: var(--nav-item-font-size);
     letter-spacing: var(--nav-item-letter-spacing);
-    /*display: var(--nav-item-display);
-    margin: var(--nav-item-margin); */
-    margin: var(--nav-item-margin);
   }
 
   .nav .nav-item + .nav-item {
-    margin: 0 0 0 2rem; /* Added: Adjust the margin to 0 0 0 2rem */
-  }
+    margin: var(0 0 0 2rem);
+     }
   
   .nav .nav-link {
     display: block;
