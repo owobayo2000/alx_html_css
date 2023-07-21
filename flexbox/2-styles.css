@@ -371,14 +371,10 @@
     padding: 10rem 40rem 2rem 0;
   }
 
-/* Section Latest news ============================= */
+    /* Section Latest news ============================= */
   
   .section-latest-news .row {
     flex-direction: row-reverse;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin: 0 -15px;
   }
   
   /*** 4. CARD ***/
