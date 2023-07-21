@@ -373,8 +373,12 @@
 
 /* Section Latest news ============================= */
   
-  .row {
+  .section-latest-news .row {
     flex-direction: row-reverse;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 -15px;
   }
   
   /*** 4. CARD ***/
